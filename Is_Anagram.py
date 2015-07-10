@@ -53,5 +53,7 @@ b = 'brat'
 #Calling the function and passing x and y as parameter
 print anagram(x, y) #Will return confirmation that x and y are anagram
 
+print '\n'
+
 #Calling the function and passing a and b as parameter
 print anagram(a, b) #Will return confirmation that a and b are not anagram
