@@ -8,7 +8,7 @@ br.set_handle_refresh(False)  # can sometimes hang without this
 br.addheaders = [('User-agent', 'Mozilla/5.0')]
 
 #Create output file with column headers
-output = open('/users/hoangnguyen/documents/programming/data_set/Amazon_New_Book_Releases.csv', 'w')
+output = open('Amazon_New_Book_Releases.csv', 'w')
 column_header = 'Book_Name|Author|Release_Date|Rating|Number_of_Review\n'
 output.write(column_header)
 
