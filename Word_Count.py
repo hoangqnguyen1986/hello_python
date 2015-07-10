@@ -38,7 +38,7 @@ wordCount(x)
 
 
 #Read from a file and do word count
-file = open('/Users/hoangnguyen/documents/programming/text_sample.txt','r')
+file = open('word_count_text_sample.txt','r')
 z = file.read()
 wordCount(z) 
 file.close()
