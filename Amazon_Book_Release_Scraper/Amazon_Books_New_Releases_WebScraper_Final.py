@@ -1,3 +1,4 @@
+#Scrape Amazon for new book releases in the past 90 days
 #Amazon is rejecting the default User-Agent for urllib2 . One workaround is to use the Mechanize 
 import mechanize, time
 from bs4 import BeautifulSoup
